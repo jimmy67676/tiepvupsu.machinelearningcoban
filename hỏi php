@@ -1,0 +1,11 @@
+<?php
+function themlinkanhvoform($urllink,$htmlcode,$bbcode,$markdown)
+{
+$urllink="";
+for($urllink>$htmlcode && $htmlcode<$bbcode);
+$htmlcode="";
+for($htmlcode>$bbcode && $bbcode>$markdown);
+return $urllink;
+}
+?>
+ghi tên hàm thế có sai 0
